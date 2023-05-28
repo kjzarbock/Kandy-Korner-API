@@ -1,0 +1,423 @@
+{
+    "users": [
+      {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "email": "John.smith@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 4,
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 5,
+    "name": "Robert Brown",
+    "email": "robert.brown@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 6,
+    "name": "Emily Wilson",
+    "email": "emily.wilson@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 7,
+    "name": "Christopher Taylor",
+    "email": "christopher.taylor@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 8,
+    "name": "David Brown",
+    "email": "david.brown@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 9,
+    "name": "Matthew Anderson",
+    "email": "matthew.anderson@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 10,
+    "name": "Sarah Johnson",
+    "email": "sara.johnson@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 11,
+    "name": "Daniel White",
+    "email": "daniel.white@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 12,
+    "name": "Christopher Davis",
+    "email": "christopher.davis@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 13,
+    "name": "William Martin",
+    "email": "william.martin@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 14,
+    "name": "Jessica Anderson",
+    "email": "jessica.anderson@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 15,
+    "name": "Joseph Lewis",
+    "email": "joseph.lewis@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 16,
+    "name": "Olivia Lee",
+    "email": "olivia.lee@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 17,
+    "name": "David Rodriguez",
+    "email": "david.rodriguez@example.com",
+    "isStaff": false
+  },
+  {
+    "id": 18,
+    "name": "Matthew Wilson",
+    "email": "matthew.wilson@example.com",
+    "isStaff": true
+  },
+  {
+    "id": 19,
+    "name": "Andrew Hall",
+    "email": "andrew.hall@example.com",
+    "isStaff": false
+  }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "userId": 1,
+            "loyaltyNumber": "ABC123"
+          },
+          {
+            "id": 2,
+            "userId": 5,
+            "loyaltyNumber": "DEF456"
+          },
+          {
+            "id": 3,
+            "userId": 7,
+            "loyaltyNumber": "GHI789"
+          },
+          {
+            "id": 4,
+            "userId": 11,
+            "loyaltyNumber": "JKL012"
+          },
+          {
+            "id": 5,
+            "userId": 13,
+            "loyaltyNumber": "MNO345"
+          },
+          {
+            "id": 6,
+            "userId": 15,
+            "loyaltyNumber": "PQR678"
+          },
+          {
+            "id": 7,
+            "userId": 17,
+            "loyaltyNumber": "STU901"
+          },
+          {
+            "id": 8,
+            "userId": 15,
+            "loyaltyNumber": "VWX234"
+          },
+          {
+            "id": 9,
+            "userId": 17,
+            "loyaltyNumber": "YZA567"
+          },
+          {
+            "id": 10,
+            "userId": 19,
+            "loyaltyNumber": "BCD890"
+          }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 2,
+            "name": "John Smith",
+            "email": "john.smith@example.com",
+            "startDate": "2022-01-01",
+            "payRate": 15.0,
+            "storeId": 1
+          },
+          {
+            "id": 2,
+            "userId": 4,
+            "name": "Jane Doe",
+            "email": "jane.doe@example.com",
+            "startDate": "2021-09-15",
+            "payRate": 12.5,
+            "storeId": 2
+          },
+          {
+            "id": 3,
+            "userId": 3,
+            "name": "Michael Johnson",
+            "email": "michael.johnson@example.com",
+            "startDate": "2023-02-10",
+            "payRate": 14.0,
+            "storeId": 3
+          },
+          {
+            "id": 4,
+            "userId": 6,
+            "name": "Emily Wilson",
+            "email": "emily.wilson@example.com",
+            "startDate": "2022-07-03",
+            "payRate": 13.5,
+            "storeId": 4
+          },
+          {
+            "id": 5,
+            "userId": 8,
+            "name": "David Brown",
+            "email": "david.brown@example.com",
+            "startDate": "2021-11-20",
+            "payRate": 14.0,
+            "storeId": 5
+          },
+          {
+            "id": 6,
+            "userId": 10,
+            "name": "Sarah Johnson",
+            "email": "sarah.johnson@example.com",
+            "startDate": "2022-04-05",
+            "payRate": 13.0,
+            "storeId": 6
+          },
+          {
+            "id": 7,
+            "userId": 12,
+            "name": "Christopher Davis",
+            "email": "christopher.davis@example.com",
+            "startDate": "2023-03-15",
+            "payRate": 15.5,
+            "storeId": 7
+          },
+          {
+            "id": 8,
+            "userId": 14,
+            "name": "Jessica Anderson",
+            "email": "jessica.anderson@example.com",
+            "startDate": "2021-12-10",
+            "payRate": 12.0,
+            "storeId": 8
+          },
+          {
+            "id": 9,
+            "userId": 18,
+            "name": "Matthew Wilson",
+            "email": "matthew.wilson@example.com",
+            "startDate": "2022-08-25",
+            "payRate": 14.5,
+            "storeId": 9
+          },
+          {
+            "id": 10,
+            "userId": 16,
+            "name": "Olivia Lee",
+            "email": "olivia.lee@example.com",
+            "startDate": "2023-01-05",
+            "payRate": 13.0,
+            "storeId": 10
+          }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Sam's Sweet Delights",
+            "address": "123 Main St",
+            "squareFootage": 1000,
+            "availableProductId": [1, 7, 3]
+          },
+          {
+            "id": 2,
+            "name": "Katie's Candy Kingdom",
+            "address": "456 Elm St",
+            "squareFootage": 1500,
+            "availableProductId": [2, 4, 6]
+          },
+          {
+            "id": 3,
+            "name": "Logan's Sugar Treats",
+            "address": "789 Oak St",
+            "squareFootage": 1200,
+            "availableProductId": [3, 5, 10]
+          },
+          {
+            "id": 4,
+            "name": "Bri's Lollipop Lane",
+            "address": "321 Pine St",
+            "squareFootage": 800,
+            "availableProductId": [1, 4, 8]
+          },
+          {
+            "id": 5,
+            "name": "Kelsey's Choco Haven",
+            "address": "654 Cedar St",
+            "squareFootage": 1100,
+            "availableProductId": [2, 5, 10]
+          },
+          {
+            "id": 6,
+            "name": "Casey's Caramel Bliss",
+            "address": "987 Maple St",
+            "squareFootage": 900,
+            "availableProductId": [3, 4, 7]
+          },
+          {
+            "id": 7,
+            "name": "Marshmallow Dreams",
+            "address": "135 Walnut St",
+            "squareFootage": 1300,
+            "availableProductId": [5, 3, 6]
+          },
+          {
+            "id": 8,
+            "name": "Cotton Candy Clouds",
+            "address": "246 Birch St",
+            "squareFootage": 1000,
+            "availableProductId": [2, 5, 7]
+          },
+          {
+            "id": 9,
+            "name": "Gummy Wonderland",
+            "address": "579 Ash St",
+            "squareFootage": 1500,
+            "availableProductId": [1, 8, 6]
+          },
+          {
+            "id": 10,
+            "name": "Bubblegum Boulevard",
+            "address": "864 Spruce St",
+            "squareFootage": 1200,
+            "availableProductId": [3, 5, 7]
+          }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Gummy Bears",
+            "productTypeId": 1,
+            "pricePerUnit": 2.99
+          },
+          {
+            "id": 2,
+            "name": "Reese's",
+            "productTypeId": 3,
+            "pricePerUnit": 1.99
+          },
+          {
+            "id": 3,
+            "name": "Lollipop",
+            "productTypeId": 1,
+            "pricePerUnit": 0.99
+          },
+          {
+            "id": 4,
+            "name": "Milky Way",
+            "productTypeId": 3,
+            "pricePerUnit": 0.49
+          },
+          {
+            "id": 5,
+            "name": "Big Red",
+            "productTypeId": 2,
+            "pricePerUnit": 1.49
+          },
+          {
+            "id": 6,
+            "name": "Bubbalicious",
+            "productTypeId": 2,
+            "pricePerUnit": 1.29
+          },
+          {
+            "id": 7,
+            "name": "Cotton Candy",
+            "productTypeId": 1,
+            "pricePerUnit": 2.49
+          },
+          {
+            "id": 8,
+            "name": "Coca Cola",
+            "productTypeId": 4,
+            "pricePerUnit": 2.50
+          },
+          {
+            "id": 9,
+            "name": "Root Beer",
+            "productTypeId": 4,
+            "pricePerUnit": 2.50
+          },
+          {
+            "id": 10,
+            "name": "Snickers",
+            "productTypeId": 3,
+            "pricePerUnit": 1.09
+          }
+    ],
+    "productTypes": [
+        {
+          "id": 1,
+          "type": "Hard Candy"
+        },
+        {
+            "id": 2,
+            "type": "Gum"
+        },
+        {
+            "id": 3,
+            "type": "Chocolate"
+        },
+        {
+            "id": 4,
+            "type": "Sodas"
+        }
+      ],
+      "purchases": [
+        {
+          "id": 1,
+          "customerId": ,
+          "productId": ,
+          "storeId": ,
+          "numberPurchased": 
+        }
+      ]
+  }
